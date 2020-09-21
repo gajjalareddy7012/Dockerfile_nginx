@@ -1,7 +1,7 @@
 #git
 FROM alpine/git as repo
 
-MAINTAINER devopstrainingblr@gmail.com
+MAINTAINER aravindreddy.urs@gmail.com
 
 WORKDIR /app
 RUN git clone https://github.com/MithunTechnologiesDevOps/maven-web-application.git
